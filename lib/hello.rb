@@ -4,12 +4,11 @@ def hello_t(array)
 
  while count < array.length
    yield(array[count])
-   count = count + 1
+   count += 1
 end
 array
 else
   puts "Hey! No block was given!"
 end
 end
-
 # call your method here!
